@@ -1,9 +1,8 @@
 {
   "compilerOptions": {
-    "composite": true,
     "target": "ES2022",
     "lib": [
-      "ES2022"
+      "ES2020"
     ],
     "module": "ESNext",
     "skipLibCheck": true,
@@ -12,12 +11,14 @@
     // "allowImportingTsExtensions": true,
     "isolatedModules": true,
     "moduleDetection": "force",
-    // "noEmit": true,
+    "composite": true, // Required for referenced projects
+    // "noEmit": true,  // Remove this line
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "outDir": "./dist" // Specify an output directory
   },
   "include": [
     "vite.config.ts"
