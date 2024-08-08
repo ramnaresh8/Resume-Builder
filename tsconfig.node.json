@@ -11,14 +11,13 @@
     // "allowImportingTsExtensions": true,
     "isolatedModules": true,
     "moduleDetection": "force",
-    "composite": true, // Required for referenced projects
-    // "noEmit": true,  // Remove this line
+    "composite": true,
+    // "noEmit": true,
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-    "outDir": "./dist" // Specify an output directory
+    "noFallthroughCasesInSwitch": true
   },
   "include": [
     "vite.config.ts"
