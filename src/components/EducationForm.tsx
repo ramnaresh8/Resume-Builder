@@ -97,7 +97,7 @@ const EducationForm = ({ onEducation }: EducationFormProps) => {
   });
 
   return (
-    <Collapsible
+    <Collapsible style={{backgroundColor: "#D3D3D3"}}
       className="rounded-md border bg-white p-4 shadow-md"
       open={isOpen}
       onOpenChange={setIsOpen}
