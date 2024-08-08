@@ -29,7 +29,7 @@ const Resume = React.forwardRef<HTMLDivElement, ResumeProps>(
   ) => {
     return (
       <div ref={ref} className="flex shrink-0 bg-white md:w-[21cm]">
-        <div className="flex w-full flex-col gap-2 p-6">
+        <div style={{backgroundColor: "#FFE4C4"}} className="flex w-full flex-col gap-2 p-6">
           {/* <img
               src={profilePicture}
               className="my-4 border-4 border-blue-950 object-fill"
